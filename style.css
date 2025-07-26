@@ -158,10 +158,10 @@ input:focus {
     outline: none;
 }
 
-/* not working */
-/* .password#password:invalid {
-  border-color: #dc2626;
-} */
+input:invalid {
+  border-color: #fa2d2d;
+  box-shadow: 0 0 1px rgb(248, 46, 28);
+}
 
 .footer {
     display: flex;
