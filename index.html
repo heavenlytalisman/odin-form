@@ -7,53 +7,66 @@
     <title>Sign-up</title>
 </head>
 <body>
-    <div class="image-container">
-        <div class="logo">
-            <div class="logo-img">
-                <img src="/images/logo.png">
+    <div class="container">    
+        <div class="left-panel">
+            <div class="bgimg">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Odin logo">
+                    <div class="logotxt">ODIN</div>
+                </div>
             </div>
-            <div class="logotxt">ODIN</div>
+        </div>
+        <div class="form-container">
+            <div class="header">
+                <div class="header-text-container">
+                    <div class="htext">This is not real online service! You know you need something like this in your life to help you realize your deepest dreams Sign up <span>now</span> to get started.</div>
+                    <div class="htext2">You <span>know</span> you want to.</div>
+                </div>
+            </div>
+            <div class="mini-form-container">
+                <div class="ftext">Let's do this!</div>
+                <div class="form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" id="phone_number" name="phone_number">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required minlength="8" >
+                        </div>
+                        <div class="form-group">
+                            <label for="password">CONFIRM PASSWORD</label>
+                            <input type="password" id="password" name="password" required minlength="8">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="button">
+                    <button type="submit">Create Account</button>
+                </div>
+                <div class="footer-text">
+                    Already have an accoun? <a href="index.html">Log in</a>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="form-container">
-        <div class="header">
-            <div class="htext">This is not real online service! You know you need something like this in your life to help you realize your deepest dreams Sign up <span>now</span> to get started.</div>
-            <div class="htext2">You <span>know</span> you want to.</div>
-        </div>
-        <div class="form">
-            <div class="ftext">Let's do this!</div>
-            <fieldset>
-                <div class="ftext">FIRST NAME</div>
-                <!-- <label for="first_name">FIRST NAME</label> -->
-                <input type="text" id="first_name" name="first_name">
-
-                <div class="ftext">EMAIL</div>
-                <input type="text" id="email" name="email">
-
-                <div class="ftext">PASSWORD</div>
-                <input type="password" id="password" name="password">
-            </fieldset>
-            <fieldset>
-                <div class="ftext">LAST NAME</div>
-                <input type="text" id="last_name" name="last_name">
-
-                <div class="ftext">PHONE NUMBER</div>
-                <input type="tel" id="phone_number" name="phone_number">
-
-                <div class="ftext">CONFIRM PASSWORD</div>
-                <input type="password" id="password" name="password">
-            </fieldset>
-
-        </div>
-        <div class="footer">
-            <div class="button">
-                <button type="submit">Create Account</button>
-            </div>
-            <div class="footer-text">
-                Already have an accoun? <a href="index.html">Log in</a>
-            </div>
-        </div>
-    </div>
-
 </body>
 </html>
